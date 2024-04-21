@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Author: Kadircan Kaya
+# LinkedIn: [Kadircan Kaya](https://www.linkedin.com/in/kadircan-kaya/)
+# Description: This script forwards a specific port on Docker Machine.
+# It automates common tasks in development and testing environments, allowing users to quickly forward or stop forwarding a port.
+
 readonly SCRIPT_NAME=$(basename "$0")
 readonly usage="Usage: $SCRIPT_NAME [options] <port>
 
