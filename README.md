@@ -23,10 +23,9 @@ Each script can be used to forward or stop forwarding a specific port. For more 
   ```bash
   ./kubernetes_port_forward.sh 8080
 
-  ```bash
   ./kubernetes_port_forward.sh -s 8080
 
-  ## Options
+## Options
 
 The available options for each script are as follows:
 
